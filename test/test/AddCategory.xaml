@@ -1,0 +1,19 @@
+﻿<Window x:Class="EncePence.AddCategory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dodaj nową kategorię" Height="193" Width="344">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Label Content="Nazwa kategorii"></Label>
+            <TextBox Name="tbCategoryName"></TextBox>
+            <Label Content="Opis"></Label>
+            <TextBox Name="tbDescription" Height="50" AcceptsReturn="True" TextWrapping="Wrap"></TextBox>
+            <Button Click="AddCategory_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Images\list_add.png" Height="30"></Image>
+                    <Label FontSize="20">Dodaj</Label>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

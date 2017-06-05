@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <colors>
+    <headerBackground>#FF1919FA</headerBackground>
+    <headerForeground>#FF000000</headerForeground>
+    <contentBackground>#FF6E67FF</contentBackground>
+    <contentForeground>#FF000000</contentForeground>
+  </colors>
+  <popupWindow>
+    <position>TopLeft</position>
+    <effect>Slide</effect>
+  </popupWindow>
+  <display>2</display>
+  <start>True</start>
+</settings>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<categories>
+  <category>
+    <id>1037</id>
+    <name>Geografia</name>
+    <describtion />
+  </category>
+  <category>
+    <id>1038</id>
+    <name>Historia</name>
+    <describtion />
+  </category>
+  <category>
+    <id>1039</id>
+    <name>Nauki ścisłe</name>
+    <describtion />
+  </category>
+  <category>
+    <id>1040</id>
+    <name>Literatura i sztuka</name>
+    <describtion />
+  </category>
+  <category>
+    <id>1041</id>
+    <name>Biologia</name>
+    <describtion />
+  </category>
+</categories>

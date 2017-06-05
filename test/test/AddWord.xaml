@@ -1,0 +1,21 @@
+﻿<Window x:Class="EncePence.AddWord"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AddWord" Height="291.286" Width="463.07">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Label>Słowo</Label>
+            <TextBox Name="tbName"></TextBox>
+            <Label>Kategoria</Label>
+            <ComboBox Name="cbCategory"></ComboBox>
+            <Label>Opis</Label>
+            <TextBox Name="tbDescription" TextWrapping="Wrap" AcceptsReturn="True" Height="100"></TextBox>
+            <Button Click="AddWord_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Images\list_add.png" Height="30"></Image>
+                    <Label FontSize="20">Dodaj</Label>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

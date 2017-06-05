@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\WLO\Documents\Visual Studio 2013\Projects\test\EncePence2.nunit" total="45" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-07-07" time="20:56:11">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5477" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files\NUnit 2.6.3\bin" machine-name="WLO-ASUS" user="WLO" user-domain="WLO-Asus" />
+  <culture-info current-culture="pl-PL" current-uiculture="pl-PL" />
+  <test-suite type="Project" name="C:\Users\WLO\Documents\Visual Studio 2013\Projects\test\EncePence2.nunit" executed="True" result="Success" success="True" time="2.102" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\WLO\Documents\Visual Studio 2013\Projects\test\test\bin\Debug\test.exe" executed="True" result="Success" success="True" time="2.088" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="EncePence" executed="True" result="Success" success="True" time="2.086" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Testy" executed="True" result="Success" success="True" time="2.086" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AdapterCategoryTest" executed="True" result="Success" success="True" time="0.154" asserts="0">
+                    <results>
+                      <test-case name="EncePence.Testy.AdapterCategoryTest.GetCategoryEntityTest" executed="True" result="Success" success="True" time="0.131" asserts="2" />
+                      <test-case name="EncePence.Testy.AdapterCategoryTest.GetCategoryTest" executed="True" result="Success" success="True" time="0.004" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="CategoryTest" executed="True" result="Success" success="True" time="0.204" asserts="0">
+                    <results>
+                      <test-case name="EncePence.Testy.CategoryTest.CategoryIsEnableTest" executed="True" result="Success" success="True" time="0.025" asserts="1" />
+                      <test-case name="EncePence.Testy.CategoryTest.CategoryToStringTest" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                      <test-case name="EncePence.Testy.CategoryTest.CtorTest" executed="True" result="Success" success="True" time="0.013" asserts="5" />
+                      <test-case name="EncePence.Testy.CategoryTest.GetCategoryByIdTest" executed="True" result="Success" success="True" time="0.027" asserts="12" />
+                      <test-case name="EncePence.Testy.CategoryTest.GetCategoryByName" executed="True" result="Success" success="True" time="0.004" asserts="10" />
+                      <test-case name="EncePence.Testy.CategoryTest.GetCategoryByNameArgumentExceptionTest" executed="True" result="Success" success="True" time="0.023" asserts="0" />
+                      <test-case name="EncePence.Testy.CategoryTest.GetCategoryFileNotFoundExceptionTest" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                      <test-case name="EncePence.Testy.CategoryTest.ProportiesTest" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                      <test-case name="EncePence.Testy.CategoryTest.SpecialAllCategoriesTest" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="DataXmlTest" executed="True" result="Success" success="True" time="0.692" asserts="0">
+                    <results>
+                      <test-case name="EncePence.Testy.DataXmlTest.CtorTest" executed="True" result="Success" success="True" time="0.085" asserts="1" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetAllCategoriesTest" executed="True" result="Success" success="True" time="0.053" asserts="6" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetAllWordsByCategoryTest" executed="True" result="Success" success="True" time="0.024" asserts="5" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetAllWordsByFirstCharTest" executed="True" result="Success" success="True" time="0.018" asserts="6" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetAllWordsTest" executed="True" result="Success" success="True" time="0.021" asserts="14" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetFilteredWordsTest" executed="True" result="Success" success="True" time="0.125" asserts="15" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetRandomEnabledWordWithNoShows" executed="True" result="Success" success="True" time="0.019" asserts="2" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetRandomEnabledWordWithNoShows2" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetRandomWordTest" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetRandowWordEnableTest" executed="True" result="Success" success="True" time="0.024" asserts="3" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetWordTest" executed="True" result="Success" success="True" time="0.019" asserts="6" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetWordTestArgumentExceptionTest" executed="True" result="Success" success="True" time="0.020" asserts="0" />
+                      <test-case name="EncePence.Testy.DataXmlTest.GetWordTestArgumentNullExceptionTest" executed="True" result="Success" success="True" time="0.024" asserts="0" />
+                      <test-case name="EncePence.Testy.DataXmlTest.NotFoundExceptionTest" executed="True" result="Success" success="True" time="0.034" asserts="0" />
+                      <test-case name="EncePence.Testy.DataXmlTest.NotFoundExceptionTest2" executed="True" result="Success" success="True" time="0.024" asserts="0" />
+                      <test-case name="EncePence.Testy.DataXmlTest.SearchWordTest" executed="True" result="Success" success="True" time="0.030" asserts="6" />
+                      <test-case name="EncePence.Testy.DataXmlTest.SearchWordTestArgumentNullExceptionTest" executed="True" result="Success" success="True" time="0.020" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="LocalDataTest" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="EncePence.Testy.LocalDataTest.GetAllWordsDataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="SettingsTests" executed="True" result="Success" success="True" time="0.931" asserts="0">
+                    <results>
+                      <test-case name="EncePence.Testy.SettingsTests.ArgumentExceptionTest" executed="True" result="Success" success="True" time="0.684" asserts="0" />
+                      <test-case name="EncePence.Testy.SettingsTests.contentBackgroundColorTest" executed="True" result="Success" success="True" time="0.020" asserts="1" />
+                      <test-case name="EncePence.Testy.SettingsTests.contentForegroundColorTest" executed="True" result="Success" success="True" time="0.013" asserts="1" />
+                      <test-case name="EncePence.Testy.SettingsTests.CtorTest" executed="True" result="Success" success="True" time="0.017" asserts="2" />
+                      <test-case name="EncePence.Testy.SettingsTests.displayValueTest" executed="True" result="Success" success="True" time="0.019" asserts="1" />
+                      <test-case name="EncePence.Testy.SettingsTests.FileNotFoundExceptionTest" executed="True" result="Success" success="True" time="0.040" asserts="0" />
+                      <test-case name="EncePence.Testy.SettingsTests.headerBackgroundColorTest" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="EncePence.Testy.SettingsTests.headerForegroundColorTest" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="EncePence.Testy.SettingsTests.windowEffectTest" executed="True" result="Success" success="True" time="0.018" asserts="4" />
+                      <test-case name="EncePence.Testy.SettingsTests.windowPositionTest" executed="True" result="Success" success="True" time="0.019" asserts="4" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="WordAdapterTest" executed="True" result="Success" success="True" time="0.011" asserts="0">
+                    <results>
+                      <test-case name="EncePence.Testy.WordAdapterTest.GetWordEntity" executed="True" result="Success" success="True" time="0.002" asserts="7" />
+                      <test-case name="EncePence.Testy.WordAdapterTest.GetWordTest" executed="True" result="Success" success="True" time="0.001" asserts="7" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="WordFilterTest" executed="True" result="Success" success="True" time="0.015" asserts="0">
+                    <results>
+                      <test-case name="EncePence.Testy.WordFilterTest.WordFilterProportiesTest" executed="True" result="Success" success="True" time="0.009" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="WordTest" executed="True" result="Success" success="True" time="0.021" asserts="0">
+                    <results>
+                      <test-case name="EncePence.Testy.WordTest.CtorTest" executed="True" result="Success" success="True" time="0.001" asserts="6" />
+                      <test-case name="EncePence.Testy.WordTest.ProportiesTest" executed="True" result="Success" success="True" time="0.004" asserts="5" />
+                      <test-case name="EncePence.Testy.WordTest.VisibilityPropertyTest" executed="True" result="Success" success="True" time="0.004" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
